@@ -1,46 +1,19 @@
-/*  your css code here. If applicable */
-
-.cards-wrapper{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap:20px;
-	
-	
+.cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards in a row */
+  gap: 20px;
 }
 
-.box {
-	
-	border:10px solid #ccc;
-	border-radius:20px;
-	background-color:#fafafa;
-}
-#box1{
-	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlO9f3Z_GlWQDUsU78ogTRz4uf0CYSmIvjag&s");
-	background-size:cover;
-	color:white;
-	
-	
+.card {
+  border: 10px solid #ccc;
+  background-color: #fafafa;
+  padding: 20px;
 }
 
-#box2{
-	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA0E1GjioS6Q0HUbQufhkty6yb9zmmYU5DjQ&s");
-	background-size:cover;
-	color:white;
+.card h1 {
+  font-size: 1.5em;
 }
 
-#box3{
-	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvSJgz4M4nT71NRDz9LpGuwezjYDxB-neJ1Q&s");
-	background-size:cover;
-	color:white;
-}
-
-.heading{
-	font-size:1.5em;
-	margin-top:100px;
-	margin-left:10px;
-}
-
-.para{
-	font-size:0.75em;
-	margin-left:10px;
+.card p {
+  font-size: 0.75em;
 }
